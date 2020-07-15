@@ -9,7 +9,7 @@ If you'd like to explore the concept, check out the Markdown files. Else, if you
 
 ### Concepts
 
-- [Arithemtics and Operators](https://github.com/Avicity7/pyhelp/tree/master/operators)
+- [Arithemtics and Operators](https://github.com/Avicity7/pyhelp/blob/master/operators/operators.md)
 
 ### Contributing
 All contributions are welcome! Do note, though, that this project is still **in active development**; if you'd like to suggest, please create an Issue first before working on it.
