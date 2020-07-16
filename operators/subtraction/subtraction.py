@@ -1,4 +1,4 @@
-# Addition.py
+# Subtraction.py
 
 """
 In Python, the - sign is used to refer to subtraction.
@@ -6,19 +6,19 @@ However, subtraction is not entirely constrained to integers and floats only.
 In fact, you're able to subtract almost all common types of Python together!
 """
 
-# Addition with integers
+# Subtraction with integers
 integerA = 1
 integerB = 2
 integerTotal = integerA + integerB  
 print(integerTotal)                 # Prints out 3
 
-# Addition with floats
+# Subtraction with floats
 floatA = 1.5
 floatB = 2.5
 floatTotal = floatA + floatB
 print(floatTotal)                   # Prints out 4.0
 
-# Addition with floats and integers
+# Subtraction with floats and integers
 """
 Note:
 As of Python 3+, integers will be automatically converted to floats to give you the expected value.
@@ -26,7 +26,7 @@ As of Python 3+, integers will be automatically converted to floats to give you 
 numberTotal = integerA + floatB
 print(numberTotal)                  # Prints out 4.5
 
-# Addition with lists
+# Subtraction with lists
 listA = ['hello', 'world']
 listB = ['welcome', 'to', 'GitHub']
 listTotal = listA + listB
