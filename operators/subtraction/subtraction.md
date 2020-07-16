@@ -33,4 +33,4 @@ integerB = 2
 integerTotal = integerA - integerB  # integerTotal = -1
 ```
 
-To see more examples, check out [subtraction.py](https://github.com/Avicity7/pyhelp/blob/master/operators/addition/subtraction.py)!
+To see more examples, check out [subtraction.py](https://github.com/Avicity7/pyhelp/blob/master/operators/subtraction/subtraction.py)!
