@@ -28,5 +28,5 @@ print(numberTotal)                  # Prints out 0.5
 
 # You cannot subtract lists.
 
-# You cannot add dictionaries together.
+# You cannot subtract dictionaries.
 
