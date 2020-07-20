@@ -10,6 +10,7 @@ If you'd like to explore the concept, check out the Markdown files. Else, if you
 ### Concepts
 
 - [Getting Started](https://github.com/Avicity7/pyhelp/blob/master/getting_started/getting_started.md)
+- [Basics](https://github.com/Avicity7/pyhelp/blob/master/basics/basics.md)
 - [Arithemtics and Operators](https://github.com/Avicity7/pyhelp/blob/master/operators/operators.md)
 
 ### Contributing
