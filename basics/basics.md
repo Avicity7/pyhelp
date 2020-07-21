@@ -6,6 +6,7 @@ This file will hopefully give you a basic run down of essential Python knowledge
 
 ### Table of Contents
 - [Types](#types)
+- [Variables](#variables)
 
 ### Types
 
@@ -181,4 +182,37 @@ To add and update items, just use the same syntax above. The key needs to be som
 myDictionary = { 'name': 'Johnny' }
 myDictionary['age'] = 15 # Adds new item 'age'
 myDictionary['name'] = 'John' # Replaces 'Johnny' with 'John'
+```
+
+### Variables
+
+In Python, variables are user-defined terms that can hold values for use later on. In some programming languages, you will need to denote whether the variable is *mutable* (can be changed) or *immutable* through `let`/`val` and `var`. However, Python doesn't need this explicitly.
+
+To declare a variable in Python, just use the following syntax:
+
+```python
+variable = items
+```
+
+From then on, `variable` will have the value of `items`.
+
+#### Application
+
+Take the dictionary case above as an example:
+
+```python
+myDictionary = { 'name': 'Johnny' }
+```
+
+Now, `myDictionary` stores the value of a dictionary (`{ 'name': 'Johnny' }`). Instead of having to use `{ 'name': 'Johnny' }` every single time, you can use `myDictionary` instead. Furthermore, you'll often need to declare dictionaries as variables to do useful things with them.
+
+Here are a few more examples of variables:
+
+```python
+myFavouriteNumber = 5
+myFavouriteMultiple = 2
+
+# You can do basic arithmetic (as long as the types involved are logical!), too!
+print(myFavouriteNumber * myFavouriteMultiple)
+print('Hello, world!' * 2)
 ```
