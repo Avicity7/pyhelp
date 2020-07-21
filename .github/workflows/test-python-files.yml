@@ -16,5 +16,9 @@ jobs:
     
     - name: Run Python files
       run: |
+        cd operators/addition
         python /operators/addition/addition.py
+        
+        cd ../..
+        cd operators/subtraction
         python /operators/subtraction/subtraction.py
