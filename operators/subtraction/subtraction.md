@@ -25,7 +25,7 @@ Subtracting items together is as simple as using `-`, just like you would in reg
 
 #### Subtraction with variables
 
-Just like above, simply use `-` between the items you'd like to add together to add them all up. The following are some examples:
+Just like above, simply use `-` between the items you'd like to subtract together. The following are some examples:
 
 ```python
 integerA = 1
