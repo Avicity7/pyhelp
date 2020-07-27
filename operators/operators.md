@@ -6,6 +6,7 @@ Just like arithmetic mathematics, Python supports multiple forms of operators. C
 
 - [Addition](https://github.com/Avicity7/pyhelp/tree/master/operators/addition)
 - [Subtraction](https://github.com/Avicity7/pyhelp/tree/master/operators/subtraction)
+- [Multiplication](https://github.com/Avicity7/pyhelp/tree/master/operators/multiplication)
 
 ### Need help?
 
