@@ -11,7 +11,7 @@ If you'd like to explore the concept, check out the Markdown files. Else, if you
 
 - [Getting Started](https://github.com/Avicity7/pyhelp/blob/master/getting_started/getting_started.md)
 - [Basics](https://github.com/Avicity7/pyhelp/blob/master/basics/basics.md)
-- [Arithemtics and Operators](https://github.com/Avicity7/pyhelp/blob/master/operators/operators.md)
+- [Arithemtics and Operators](https://github.com/Avicity7/pyhelp/tree/master/operators/)
 
 ### Contributing
 All contributions are welcome! Do note, though, that this project is still **in active development**; if you'd like to suggest, please create an Issue first before working on it.
