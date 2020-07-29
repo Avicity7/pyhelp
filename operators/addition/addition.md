@@ -10,10 +10,10 @@ Here, you'll see what types you're able to add together with. The general rule o
 
 |          | Strings   | Integers  | Floats    | Lists     |
 |----------|-----------|-----------|-----------|-----------|
-| Strings  |     **OK**    | TypeError | TypeError | TypeError |
-| Integers | TypeError |     **OK**    |     **OK**    | TypeError |
-| Floats   | TypeError |     **OK**    |     **OK**    | TypeError |
-| Lists    | TypeError | TypeError | TypeError |     **OK**    |
+| Strings  |  **OK**   | TypeError | TypeError | TypeError |
+| Integers | TypeError |  **OK**   |  **OK**   | TypeError |
+| Floats   | TypeError |  **OK**   |  **OK**   | TypeError |
+| Lists    | TypeError | TypeError | TypeError |   **OK**  |
 
 ### Syntax
 

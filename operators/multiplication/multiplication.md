@@ -6,12 +6,12 @@ In Python, the `*` sign is used to refer to subtraction. However, multiplication
 
 Here, you'll see what types you're able to add together with. The general rule of thumb is to add only common types, and try not to add two variables with different types.
 
-|          | Strings   | Integers  | Floats    | Lists     |
-|----------|-----------|-----------|-----------|-----------|
-| Strings  | TypeError |   **OK**  | TypeError | TypeError |
-| Integers | **OK** |   **OK**  |  **OK**   | **OK** |
-| Floats   | TypeError |     **OK**    |     **OK**    | TypeError |
-| Lists    | TypeError | **OK** | TypeError |     TypeError    |
+|          | Strings   | Integers | Floats    | Lists     |
+|----------|-----------|----------|-----------|-----------|
+| Strings  | TypeError |  **OK**  | TypeError | TypeError |
+| Integers |  **OK**   |  **OK**  |  **OK**   |  **OK**   |
+| Floats   | TypeError |  **OK**  |  **OK**   | TypeError |
+| Lists    | TypeError |  **OK**  | TypeError | TypeError |
 
 ### Syntax
 
