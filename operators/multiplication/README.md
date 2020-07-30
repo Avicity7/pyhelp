@@ -1,10 +1,10 @@
 ## Multiplication
 
-In Python, the `*` sign is used to refer to subtraction. However, multiplication is not entirely constrained to integers and floats only.
+In Python, the `*` sign is used to refer to multiplication. However, multiplication is not entirely constrained to integers and floats only.
 
-### Table of Subtraction
+### Table of Multiplication
 
-Here, you'll see what types you're able to add together with. The general rule of thumb is to add only common types, and try not to add two variables with different types.
+Here, you'll see what types you're able to multiply together with. The general rule of thumb is to add only common types, and try not to add two variables with different types.
 
 |          | Strings   | Integers | Floats    | Lists     |
 |----------|-----------|----------|-----------|-----------|
@@ -15,7 +15,7 @@ Here, you'll see what types you're able to add together with. The general rule o
 
 ### Syntax
 
-Multiplying items together is as simple as using `*`, just like you would in regular mathematics. The following are some examples:
+Multiplying items together is as simple as using `*`. The following are some examples:
 
 ```python
 5 * 2                   # 10
