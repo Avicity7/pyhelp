@@ -22,3 +22,7 @@ jobs:
         cd ../..
         cd operators/subtraction
         python subtraction.py
+        
+        cd ../..
+        cd operators/multiplication
+        python multiplication.py
