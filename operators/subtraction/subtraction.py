@@ -2,8 +2,7 @@
 
 """
 In Python, the - sign is used to refer to subtraction.
-However, subtraction is not entirely constrained to integers and floats only.
-In fact, you're able to subtract almost all common types of Python together!
+However, unlike addition, subtraction is mostly entirely constrained to integers and floats only.
 """
 
 # Subtraction with integers
