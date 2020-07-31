@@ -36,11 +36,11 @@ Let's begin!
 3. Choose a version (optional) and download the package.
 4. Run the package executable to install Python to your device.
 
-> **Note!**
->
-> Even though Python is installed in your system after running the package executable, it cannot be accessed directly through Terminal (macOS/Linux) or Command Prompt/PowerShell (Windows). Instead, you'll need to configure and set Python up; the process here may differ across operating systems.
-
 Once you're all good to go, you should be able to see IDLE. Run it and let's get started with Python!
+
+> **Useful Info**
+>
+> This note assumes that you have Python 3+ installed. You'll may be able to use your OS's terminal and use Python using the `python3` command. 
 
 ### Where can I learn more?
 
@@ -51,3 +51,4 @@ If you'd like to suggest resources, create an Issue!
 - [Official Python documentation](https://docs.python.org/3/)
 - [RealPython](https://realpython.com/)
 - [Codecademy](https://codecademy.com/)
+- [gto76's Comprehensive Python Cheatsheet](https://github.com/gto76/python-cheatsheet)
