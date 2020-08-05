@@ -12,22 +12,22 @@ print(myString * 3)                 # Prints out HelloWorldHelloWorldHelloWorld
 # Multiplication with integers
 integerA = 2
 integerB = 1
-integerTotal = integerA * integerB  
-print(integerTotal)                 # Prints out 2
+integerResult = integerA * integerB  
+print(integerResult)                 # Prints out 2
 
 # Multiplication with floats
 floatA = 1.5
 floatB = 2.5
-floatTotal = floatA * floatB
-print(floatTotal)                   # Prints out 3.75
+floatResult = floatA * floatB
+print(floatResult)                   # Prints out 3.75
 
 # Multiplication with floats and integers
 """
 Note:
 As of Python 3+, integers will be automatically converted to floats to give you the expected value.
 """
-numberTotal = integerA * floatB
-print(numberTotal)                  # Prints out 5.0
+numberResult = integerA * floatB
+print(numberResult)                  # Prints out 5.0
 
 # You cannot multiply lists.
 

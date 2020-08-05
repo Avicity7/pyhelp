@@ -9,28 +9,28 @@ In fact, you're able to add almost all common types of Python together!
 # Addition with integers
 integerA = 1
 integerB = 2
-integerTotal = integerA + integerB  
-print(integerTotal)                 # Prints out 3
+integerResult = integerA + integerB  
+print(integerResult)                 # Prints out 3
 
 # Addition with floats
 floatA = 1.5
 floatB = 2.5
-floatTotal = floatA + floatB
-print(floatTotal)                   # Prints out 4.0
+floatResult = floatA + floatB
+print(floatResult)                   # Prints out 4.0
 
 # Addition with floats and integers
 """
 Note:
 As of Python 3+, integers will be automatically converted to floats to give you the expected value.
 """
-numberTotal = integerA + floatB
-print(numberTotal)                  # Prints out 4.5
+numberResult = integerA + floatB
+print(numberResult)                  # Prints out 4.5
 
 # Addition with lists
 listA = ['hello', 'world']
 listB = ['welcome', 'to', 'GitHub']
-listTotal = listA + listB
-print(listTotal)                    # Prints out ['hello', 'world', 'welcome', 'to', 'GitHub']
+listResult = listA + listB
+print(listResult)                    # Prints out ['hello', 'world', 'welcome', 'to', 'GitHub']
 
 # You cannot add dictionaries together.
 
