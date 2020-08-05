@@ -29,3 +29,5 @@ The // sign is used to refer to floor division.
 """
 numberTotal = integerA // floatB
 print(numberTotal)                  # Prints out 2
+
+To see more examples, check out [division.py](https://github.com/Avicity7/pyhelp/blob/master/operators/division/division.py)!
