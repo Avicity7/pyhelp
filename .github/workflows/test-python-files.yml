@@ -26,3 +26,7 @@ jobs:
         cd ../..
         cd operators/multiplication
         python multiplication.py
+        
+        cd ../..
+        cd operators/division
+        python division.py
