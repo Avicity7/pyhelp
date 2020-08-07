@@ -7,6 +7,7 @@
 - [`elif` statements](#elif-statements)
 - [`else` statements](#else-statements)
 - [Important points](#important-points)
+- [Test your learning](#test-your-learning)
 
 ### What are conditionals?
 
@@ -140,3 +141,62 @@ else:
 if (input() == '5'):
     print('Input is 5.')
 ```
+
+### Test your learning
+
+Think you've gotten the idea of conditionals? Try this question to see if you can implement it! Fire up IDLE (or other text editors of your choice) and let's go!
+
+1. [Grades](#grades)
+2. [Temperatures](#temperatures)
+
+#### Grades
+
+You're a teacher working on creating a system that can automatically generate a student's grade. This table describes the school's grading criteria:
+
+|    Score (inclusive)     | Grade |
+|--------------------------|-------|
+|       39 and below       |   F9  |
+|         40 - 44          |   E8  |
+|         45 - 49          |   D7  |
+|         50 - 54          |   C6  |
+|         55 - 59          |   C5  |
+|         60 - 64          |   B4  |
+|         65 - 69          |   B3  |
+|         70 - 75          |   A2  |
+|       75 and above       |   A1  |
+
+Write your code that takes in a score and prints out the corresponding grade.
+
+##### Helpful Tips
+- Use the syntax `(variable == score)` to see if a variable matches a score in the table above.
+- Use Python's `input()` function to get the user's input on the score to be checked.
+- You may need multiple `elif` statements.
+
+##### Solutions
+
+Coming really soon!
+
+#### Temperatures
+
+You're someone who, for whatever reasons, love temperature. In fact, you've gathered interesting information on temperatures, and would like to share with people about how each temperature feels like. This table describes what should be outputted from your code later on; this code assumes the Celcius scale (sorry, Fahrenheit):
+
+| Temperature (°C) |    Description   |
+|------------------|------------------|
+|  -30 and below   |    Really cold!  |
+|     -29 - 0      |    Pretty cold   |
+|      1 - 15      |  Pretty average  |
+|     16 - 25      |    Pretty warm   |
+|     26 - 32      |    Fairly hot    |
+|   33 and above   |    Really hot!   |
+
+Write your code that takes in a temperature and prints out the corresponding description.
+
+##### Helpful Tips
+- Use the syntax `(variable == score)` to see if a variable matches a score in the table above.
+- Use Python's `input()` function to get the user's input on the score to be checked.
+- You may need multiple `elif` statements.
+
+##### Solutions
+
+Coming really soon!
+
