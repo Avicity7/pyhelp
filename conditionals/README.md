@@ -23,7 +23,7 @@ Let's set a context: imagine yourself going to work/school. What would be the st
 You may think of:
 
 - taking the bus when it's raining
-- walk (assuming your workplace/school is nearby) when it's not
+- walking (assuming your workplace/school is nearby) when it's not
 
 In a normal English sense, you'd likely say:
 
@@ -36,7 +36,7 @@ if condition1:
     # Code to run when condition1 is true
 ```
 
-Using the context above, let's suppose that it *is* raining. We also suppose `takeTheBus()` to be functions that represent our activity respectively. We'll likely do something like:
+Using the context above, let's suppose that it *is* raining. We also suppose `takeTheBus()` to be a function that represent taking the bus. We'll likely do something like:
 
 ```python
 isRaining = true
@@ -47,7 +47,7 @@ if isRaining:
 
 > **Tip!**
 >
-> In the statement `if isRaining`, most people may usually do it as `if (isRaining == true)`. This isn't necessary, since `isRaining` is already a boolean value. Unless you're using other types, you can just use the variable if it's a boolean.
+> In the statement `if isRaining`, most people may usually do it as `if (isRaining == true)`. This isn't necessary, since `isRaining` is already a boolean value. Unless you're using other types, you can just use the variable itself.
 
 ### `elif` statements
 
@@ -68,7 +68,7 @@ elif condition2:
 >
 > You're free to add as many `elif` statements as you'd like. Note, though, that if you'd like the opposite of `condition1` to run (for example, when it is not raining), then you may want to consider using `else` instead.
 
-Let's use the example above. We'll say `walkIndoors()` is a function already declared.
+Let's use the example above. We'll say that `walkIndoors()` is a function already declared.
 
 ```python
 isRaining = true
