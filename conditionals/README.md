@@ -168,8 +168,10 @@ You're a teacher working on creating a system that can automatically generate a 
 Write your code that takes in a score and prints out the corresponding grade.
 
 ##### Helpful Tips
-- Use the syntax `(variable == score)` to see if a variable matches a score in the table above.
+
+- Use the evaluative symbols (`==`, `<`, `>`, `<=`, `>=`) to compare values. Note that you need to make sure that the input is an integer.
 - Use Python's `input()` function to get the user's input on the score to be checked.
+    - If you're planning to use evaluating symbols, consider type casting your input to integers using `int(input())`.
 - You may need multiple `elif` statements.
 
 ##### Solutions
@@ -192,8 +194,10 @@ You're someone who, for whatever reasons, love temperature. In fact, you've gath
 Write your code that takes in a temperature and prints out the corresponding description.
 
 ##### Helpful Tips
-- Use the syntax `(variable == score)` to see if a variable matches a score in the table above.
+
+- Use the evaluative symbols (`==`, `<`, `>`, `<=`, `>=`) to compare values. Note that you need to make sure that the input is an integer.
 - Use Python's `input()` function to get the user's input on the score to be checked.
+    - If you're planning to use evaluating symbols, consider type casting your input to integers using `int(input())`.
 - You may need multiple `elif` statements.
 
 ##### Solutions
