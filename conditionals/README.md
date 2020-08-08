@@ -162,7 +162,7 @@ You're a teacher working on creating a system that can automatically generate a 
 |         55 - 59          |   C5  |
 |         60 - 64          |   B4  |
 |         65 - 69          |   B3  |
-|         70 - 75          |   A2  |
+|         70 - 74          |   A2  |
 |       75 and above       |   A1  |
 
 Write your code that takes in a score and prints out the corresponding grade.
