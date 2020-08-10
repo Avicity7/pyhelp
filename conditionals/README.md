@@ -202,5 +202,5 @@ Write your code that takes in a temperature and prints out the corresponding des
 
 ##### Solutions
 
-See the solution [here](https://github.com/Avicity7/pyhelp/blob/master/conditionals/solutions/temperatures .py)!
+See the solution [here](https://github.com/Avicity7/pyhelp/blob/master/conditionals/solutions/temperatures.py)!
 
