@@ -5,7 +5,7 @@ Loops are powerful tools in Python which allows you to re-iterate in specific co
 ### Chapters
 
 - [`for`](https://github.com/Avicity7/pyhelp/tree/master/loops/for)
-- `while` (coming soon!)
+- [`while`](https://github.com/Avicity7/pyhelp/tree/master/loops/while)
 
 ### Need help?
 
