@@ -103,10 +103,10 @@ Now, the loop will iterate through every item in the list and print it out. How 
 
 Let's consolidate our learning with the `for` loop. When is it appropriate to use the items or range?
 
-|             `range()            |                Items                |
-|---------------------------------|-------------------------------------|
-| Used without traversable items  |     Used with traversable items     |
-| Used for counting incrementally | Used for accessing individual items |
+|             `range()`            |                Items                |
+|----------------------------------|-------------------------------------|
+|  Used without traversable items  |     Used with traversable items     |
+| Used for counting incrementally  | Used for accessing individual items |
 
 If you know the `while` loop, when is it suitable to use `for` or `while`?
 
