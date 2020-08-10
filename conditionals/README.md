@@ -176,7 +176,7 @@ Write your code that takes in a score and prints out the corresponding grade.
 
 ##### Solutions
 
-Coming really soon!
+See the solution [here](https://github.com/Avicity7/pyhelp/blob/master/conditionals/solutions/grades.py)!
 
 #### Temperatures
 
@@ -202,5 +202,5 @@ Write your code that takes in a temperature and prints out the corresponding des
 
 ##### Solutions
 
-Coming really soon!
+See the solution [here](https://github.com/Avicity7/pyhelp/blob/master/conditionals/solutions/temperatures .py)!
 
