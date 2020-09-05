@@ -1,12 +1,12 @@
 ## Addition
 
-In Python, the `+` sign is used to refer to addition. However, addition is not entirely constrained to integers and floats only.
+In Python, the `+` sign is used to refer to addition. However, the addition is not entirely constrained to integers and floats only.
 
-In fact, you're able to add almost all common types of Python together!
+You're able to add almost all common types of Python together!
 
 ### Table of Addition
 
-Here, you'll see what types you're able to add together with. The general rule of thumb is to add only common types, and try not to add two variables with different types.
+Here, you'll see what types you're able to add together. The general rule of thumb is to add only common types and try not to add two variables with different types.
 
 |          | Strings   | Integers  | Floats    | Lists     |
 |----------|-----------|-----------|-----------|-----------|
@@ -17,7 +17,7 @@ Here, you'll see what types you're able to add together with. The general rule o
 
 ### Syntax
 
-Adding items together is as simple as using `+`, just like you would in regular mathematics. The following are some examples:
+Adding items together is as simple as using `+`, just like you would in everyday mathematics. The following are some examples:
 
 ```python
 5 + 2                   # 7

@@ -2,7 +2,7 @@
 
 If you're here, you'd probably like to know more about Python before exploring more. That's great!
 
-This file will hopefully give you a basic run down of essential Python knowledge and syntax.
+This file will hopefully give you a basic rundown of essential Python knowledge and syntax.
 
 ### Table of Contents
 - [Types](#types)
@@ -35,7 +35,7 @@ In Python, integers are any real numbers that are **whole numbers**. If you woul
 
 #### Floats
 
-Similar to integers, floats hold numerical values. In constrast with integers, though, floats are meant to hold numbers with **decimal points** (or fractional parts).
+Similar to integers, floats hold numerical values. In contrast with integers, though, floats are meant to contain numbers with **decimal points** (or fractional parts).
 
 Some of Python's native abilities like *division* and *multiplication with floats* will always return a float.
 
@@ -53,7 +53,7 @@ In Python, strings represent any value that holds **text**. In most cases, you w
 
 > **Note!**
 >
-> Note that in string declarations, the quotation marks used must be consistent; `"Hello world!'` ***will*** result in an error).
+> Note that in string declarations, the quotation marks used must be consistent; `"Hello world!'` ***will*** result in error).
 
 ##### Examples of Strings
 ```python
@@ -74,10 +74,10 @@ In Python, you can think of lists as boxes where you can have different types of
 
 ##### Traversing and Navigating through Lists
 
-Everything in lists are often termed **items** or **elements**. With lists, you're able to *traverse* (go through) a list a pick out individual items. The location of the item relative to the list itself is known as an **index**. Don't worry, we'll help you with it!
+Everything in lists are often termed **items** or **elements**. With lists, you're able to *traverse* (go through) a list and pick out individual items. The location of the item relative to the list itself is known as an **index**. Don't worry; we'll help you with it!
 
-Here's some tips for traversing lists:
-- Python, like most (if not all) programming languages begin with `0`.
+Here are some tips for traversing lists:
+- Python, like most (if not all) programming languages begin counting indexes with `0`.
 - The syntax of picking out an individual item is `listName[index]`.
 - The syntax of picking multiple items is `listName[startIndex: stopIndex]`. Note that the item in `stopIndex` is **non-inclusive** (will not be part of this selection).
 - You can use the above with a *step* (skipping multiple selections)
@@ -86,7 +86,7 @@ Here's some tips for traversing lists:
 ['Alpha', 'Beta', 'Charlie', 'Delta']
 
 # 'Alpha', 'Beta', 'Charlie', 'Delta' are the items in this list. This list has a total of four items.
-# 'Alpha' is the first item; therefore, it will have the lowest index. Remember that Python starts counting from 0, therefore:
+# 'Alpha' is the first item; therefore, it will have the lowest index. Remember that Python starts counting from 0, thus:
 # 'Alpha' has an index of 0
 # 'Beta' has an index of 1
 # 'Charlie' has an index of 2
@@ -146,7 +146,7 @@ print(listA + listB) # Prints ['Hello', 'world!']
 
 #### Tuples
 
-Similar to lists, tuples can store data of different types. The main difference between tuples and lists is that tuples are **immutable**; once you've set the values of a tuple, you *cannot* change it at all. Tuples are generally good to use when you want to group certain related information together. To declare a tuple, use `(` and `)` (opening and closing brackets).
+Similar to lists, tuples can store data of different types. The main difference between tuples and lists is that tuples are **immutable**; once you've set the values of a tuple, you *cannot* change it at all. Tuples are generally useful to use when you want to group certain related information. To declare a tuple, use `(` and `)` (opening and closing brackets).
 
 ##### Examples of Tuples
 ```python
@@ -182,7 +182,7 @@ To select an individual item, you need to know the key of the item:
 print(dictionary['name']) # Prints Johnny
 ```
 
-To add and update items, just use the same syntax above. The key needs to be something that doesn't exist, otherwise it'll overwrite the value with that key.
+To add and update items, use the same syntax above. The key needs to be something that doesn't exist. Otherwise, it'll overwrite the value with that key.
 
 ```python
 myDictionary = { 'name': 'Johnny' }
@@ -194,7 +194,7 @@ myDictionary['name'] = 'John' # Replaces 'Johnny' with 'John'
 
 In Python, variables are user-defined terms that can hold values for use later on. In some programming languages, you will need to denote whether the variable is *mutable* (can be changed) or *immutable* through `let`/`val` and `var`. However, Python doesn't need this explicitly.
 
-To declare a variable in Python, just use the following syntax:
+To declare a variable in Python, use the following syntax:
 
 ```python
 variable = items

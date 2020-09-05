@@ -1,10 +1,10 @@
 ## Multiplication
 
-In Python, the `*` sign is used to refer to multiplication. However, multiplication is not entirely constrained to integers and floats only.
+In Python, the `*` sign is used to refer to multiplication. However, the multiplication is not entirely constrained to integers and floats only.
 
 ### Table of Multiplication
 
-Here, you'll see what types you're able to multiply together with. The general rule of thumb is to add only common types, and try not to add two variables with different types.
+Here, you'll see what types you're able to multiply together. The general rule of thumb is to add only common types and try not to add two variables with different types.
 
 |          | Strings   | Integers | Floats    | Lists     |
 |----------|-----------|----------|-----------|-----------|

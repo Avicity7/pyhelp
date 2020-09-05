@@ -1,6 +1,6 @@
 ## Loops
 
-Loops are powerful tools in Python which allows you to re-iterate in specific conditions. The two most frequently-used loops in Python include the `for` and `while` loops.
+Loops are powerful tools in Python, which allows you to re-iterate in specific conditions. The two most frequently-used loops in Python include the `for` and `while` loops.
 
 ### Chapters
 

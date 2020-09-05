@@ -1,6 +1,6 @@
 ## `while` loops
 
-In Python, the `while` loop is often used to recursively run specific code on a specific condition. It is recommended to use the `while` loop with a condition that can end; otherwise, your code may loop forever and waste useful resources!
+In Python, the `while` loop is often used to run specific code on a specific condition recursively. It is recommended to use the `while` loop with a condition that can end; otherwise, your code may loop forever and waste useful resources!
 
 ## Progressing with `while` loops
 
@@ -23,7 +23,7 @@ while condition:
 
 > **Note!**
 >
-> As much as possible, try to make sure that `condition` doesn't always resolve to True. Otherwise, you'll get an *infinite loop* and the user will need to manually intercept the program to stop it.
+> As much as possible, try to make sure that `condition` doesn't always resolve to True. Otherwise, you'll get an *infinite loop* and the user will need to intercept the program to stop it manually.
 
 Let's try to understand the solution for the context above using a `while` loop:
 
@@ -36,7 +36,7 @@ while (counter <= 100):
     counter += 1
 ```
 
-As you can see, the `counter` variable is incremented by 1 every time the loop runs. That way, the loop doesn't run infinitely, but stops just after counter is 100.
+As you can see, the `counter` variable is incremented by one every time the loop runs. That way, the loop doesn't run infinitely but stops just after `counter` is 100.
 
 ## Conclusion
 
@@ -46,7 +46,7 @@ Let's consolidate our learning with the `while` loop. If you know the `for` loop
 |-----------------------|-------------------------|
 | Looping through items | Repetition on condition |
 
-When using the `while` loop, you will need to be careful. One common error while using the loop is:
+When using the `while` loop, you will need to be careful. One standard error while using the loop is:
 
 - Infinite looping
     - What happened: The condition of your `while` loop has never resulted to `False`, causing your loop to infinitely loop.

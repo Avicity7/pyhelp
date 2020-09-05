@@ -7,7 +7,7 @@ In Python, the `for` loop is often used to iterate through items. As long as the
 
 ### Progressing using `range()`
 
-Imagine this scenario: you'd want Python to count all the way up to 100. Would you do this?
+Imagine this scenario: you'd want Python to count up to 100. Would you do this?
 
 ```python
 print(1)
@@ -41,7 +41,7 @@ for number in range(1, 101):
     print(number)
 ```
 
-That's better! Now, Python will run the loop continuously all the way from when `number` is 1 to 100.
+That's better! Now, Python will run the loop continuously from when `number` is 1 to 100.
 
 ### Progressing using items
 
@@ -67,7 +67,7 @@ for i in range(0, 4):
     print(strings[i])
 ```
 
-Those are both valid ways, but as we've discussed, the first is pretty ineffective and rigid. The second one is fine, but can be risky. What happens if you entered `5` instead of `4`? You'd risk your code crashing with an **`IndexError`**.
+Those are both good ways, but as we've discussed, the first is pretty ineffective and rigid. The second one is fine, but it can be risky. What happens if you entered `5` instead of `4`? You'd risk your code crashing with an **`IndexError`**.
 
 > **What's an IndexError?**
 >
@@ -88,7 +88,7 @@ for item in traversableItems:
 
 > **Important!**
 >
-> You need to make sure that the item you're traversing *is* actually traversable. Otherwise, you'll get a `TypeError`.
+> You need to make sure that the item you're traversing *is* traversable. Otherwise, you'll get a `TypeError`.
 
 Let's now implement this context with our learning:
 
@@ -114,10 +114,10 @@ If you know the `while` loop, when is it suitable to use `for` or `while`?
 |-----------------------|-------------------------|
 | Looping through items | Repetition on condition |
 
-When using the `for` loop, you will need to be careful. Some often errors while using the loop include:
+When using the `for` loop, you will need to be careful. Some often error while using the loop include:
 
 - `IndexError`
-    - What happened: You're trying to access an index not within the range of a list.
+    - What happened: You're trying to access an index, not within the range of a list.
     - What to do: You're likely using the `range()` method — change the stop or integer to a different value.
 - `TypeError`
     - What happened: You're likely trying to traverse a non-traversable list.
