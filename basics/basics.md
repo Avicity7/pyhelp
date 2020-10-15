@@ -47,6 +47,24 @@ Some of Python's native abilities like *division* and *multiplication with float
 12.34
 ```
 
+##### Issues and Limitations
+
+There may be some instances where performing operations can lead to unexpected results. Take a look at the example below, for example:
+
+```python
+>>> 0.1 * 0.2
+0.020000000000000004
+```
+
+This unusual behaviour is expected; for clarification, take a look at the [official Python documentation](https://docs.python.org/3.8/tutorial/floatingpoint.html). This can cause unexpected results in other situations, too. An example would be when rounding off floats:
+
+```python
+>>> round(0.5)
+0
+```
+
+It's therefore recommended for you to make sure that you run your program and test it vigorously for any bugs. Logic errors are the hardest to catch but are the most prone of being undetected due to their state of being non-fatal errors.
+
 #### Strings
 
 In Python, strings represent any value that holds **text**. In most cases, you would need to use `"` (quotation marks, **not** the left/right double quotation marks) or `'` (apostrophe) to declare strings.
